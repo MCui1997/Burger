@@ -1,0 +1,31 @@
+
+
+body{
+
+    background-color: #cc5500;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+img{
+
+    height: 300px;
+
+}
+
+#title{
+
+    text-align: center;
+
+}
+
+.cols{
+
+    text-align: center;
+}
+
