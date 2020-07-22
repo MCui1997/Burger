@@ -1,8 +1,8 @@
 // Set up database 
 var mysql = require('mysql');
-var connection;
+let connection;
 
-// JAWSDB for heroku
+// if you use heroku, use the first method, otherwise it's normal sql connection
 if (process.env.JAWSDB_URL) {
 	connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {

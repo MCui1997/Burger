@@ -1,9 +1,13 @@
 // Dependencies
 var express = require('express');
-var methodOverride = require('method-override');
-var bodyParser = require('body-parser');
 
+// PORT
 var PORT = process.env.PORT || 3000;
+
+// Express app.
+var app = express();
+app.use(express.static(__dirname + '/public'));
+
 
 
 // Handlebars 
