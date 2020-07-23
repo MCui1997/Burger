@@ -56,6 +56,8 @@ All the recommended files and directories from the steps above should look like 
 
 ## Screenshots
 
+![Alt text](public/assets/img/main.PNG "Main")
+
 
 
 
